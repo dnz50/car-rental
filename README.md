@@ -13,4 +13,4 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 ## Website gif
 
-![alt text](public/carrentgif.gif)
+![alt text](src/assets/carrentgif.gif)

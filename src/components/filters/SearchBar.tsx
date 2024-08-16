@@ -9,6 +9,7 @@ const SearchBar = () => {
     const [make, setMake] = useState("")
     const [model, setModel] = useState("")
     const [params, setParams]= useSearchParams()
+    console.log(params)
 
     //useMemo hesapladığını ön bellekte saklıyor tekrar eden işlemi azaltıp 
     //preformans artırıyor
@@ -34,6 +35,7 @@ const SearchBar = () => {
             //ikiside yok
         } else {
             alert("please select a car model")
+
         }
     }
 
